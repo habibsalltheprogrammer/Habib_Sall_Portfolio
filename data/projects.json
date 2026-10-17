@@ -1,0 +1,76 @@
+{
+  "flagship": {
+    "title": "Achievers Gospel Chapel",
+    "subtitle": "Flagship Website Project",
+    "overview": "A fully responsive church website built from scratch with HTML, CSS and JavaScript — deployed live on GitHub Pages. Complete with sermons, events, ministries and a media gallery.",
+    "tech": ["HTML5", "CSS3", "JavaScript", "Git", "GitHub Pages"],
+    "features": ["Responsive design", "Home, About & Ministries pages", "Sermons & media library", "Events calendar", "Photo gallery", "Interactive navigation", "Smooth scrolling & animation", "Mobile navigation", "Cross-browser tested", "Performance optimized"],
+    "liveUrl": "#",
+    "codeUrl": "https://github.com/habibsalltheprogrammer/achieversgospelchapel"
+  },
+  "software": [
+    {
+      "title": "SmartLibrary Management System",
+      "summary": "Desktop library management suite handling authentication, book records, and borrow/return workflows.",
+      "tech": ["Python", "PyQt5", "PostgreSQL", "psycopg2"],
+      "features": ["User authentication", "Book management", "Student records", "Borrow & return tracking", "Live database integration"],
+      "codeUrl": "https://github.com/habibsalltheprogrammer/MiniLibrarySystem"
+    },
+    {
+      "title": "Njala University Fees Registration System",
+      "summary": "A full student-fees platform with a student portal, admin dashboard and automated receipt generation.",
+      "tech": ["Flask", "HTML/CSS/JS", "PostgreSQL", "JWT"],
+      "features": ["Student portal", "Admin dashboard", "Secure login", "Receipt generator", "Reporting", "Payment handling"],
+      "codeUrl": "https://github.com/habibsalltheprogrammer/web_Design_DCOMP204_Assignment_1_BSEM1201_905004982_SEM4"
+    },
+    {
+      "title": "Programming Wing App",
+      "summary": "A mobile-first student community app with clean navigation and a modern interface.",
+      "tech": ["Flutter", "Dart"],
+      "features": ["Student-focused UI", "Native mobile interface", "Smooth navigation", "Modern mobile design system"],
+      "codeUrl": "https://github.com/habibsalltheprogrammer/inclusive-tutor"
+    },
+    {
+      "title": "E-Commerce Inventory API",
+      "summary": "A group-built inventory and order management API for e-commerce operations.",
+      "tech": ["REST API", "PostgreSQL", "JWT Auth"],
+      "features": ["Inventory tracking", "Order endpoints", "Role-based auth", "Structured API docs"],
+      "codeUrl": "https://github.com/chief172/Group-4-Final-Prog-E-Commerce-Inventory-API-BSEM-1201"
+    },
+    {
+      "title": "OOP Method Coursework",
+      "summary": "A collection of object-oriented programming exercises exploring core software design principles.",
+      "tech": ["Java / OOP", "Design Patterns"],
+      "features": ["Encapsulation & inheritance drills", "Clean class architecture", "Documented coursework"],
+      "codeUrl": "https://github.com/habibsalltheprogrammer/Object_Oriented_Programming_Method2-315-_BSEM1201_905004982"
+    }
+  ],
+  "modelingAchievements": [
+    { "title": "Mr. Brookfields 2025", "detail": "Pageant title holder" },
+    { "title": "Mr. Limkokwing 2025", "detail": "Pageant title holder" },
+    { "title": "Brand Ambassador", "detail": "Placeholder — update with brand name" },
+    { "title": "Fashion Collaboration", "detail": "Placeholder — update with collaborator" }
+  ],
+  "modelingStats": [
+    { "label": "Fashion Shows", "value": 12 },
+    { "label": "Photoshoots", "value": 30 },
+    { "label": "Campaigns", "value": 6 },
+    { "label": "Brands", "value": 5 },
+    { "label": "Awards", "value": 2 },
+    { "label": "Years Active", "value": 3 }
+  ],
+  "experience": [
+    {
+      "company": "Kagust Investment Company Limited",
+      "role": "Multimedia & Operations",
+      "period": "Placeholder dates",
+      "points": ["Recruitment", "Marketing", "Worker management", "Graphic design", "Database management", "Daily reporting"]
+    },
+    {
+      "company": "SYLREG Enterprise",
+      "role": "Technical & Creative Lead",
+      "period": "Placeholder dates",
+      "points": ["Bureau management", "Website development", "Multimedia design", "Branding", "Technical support"]
+    }
+  ]
+}
