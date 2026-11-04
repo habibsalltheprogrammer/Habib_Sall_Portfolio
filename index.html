@@ -1,235 +1,642 @@
+﻿
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Habib Sall — Software Engineer · Multimedia Designer · Creative Technologist</title>
-<meta name="description" content="Habib Sall — Software Engineer, Multimedia Designer, UI/UX Designer, Fashion Model and Performer. Building digital experiences through code and creativity.">
-<link rel="icon" type="image/jpeg" href="assets/images/logo.jpeg">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Habib Sall — Software Engineer · Multimedia Designer · Creative Technologist">
-<meta property="og:description" content="Habib Sall — Software Engineer, Multimedia Designer, UI/UX Designer, Fashion Model and Performer. Building digital experiences through code and creativity.">
-<meta property="og:url" content="https://habibsalltheprogrammer.github.io/portfolio/">
-<meta property="og:image" content="https://habibsalltheprogrammer.github.io/portfolio/assets/images/profile.jpg">
-<meta property="og:site_name" content="Habib Sall">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Habib Sall — Software Engineer · Multimedia Designer · Creative Technologist">
-<meta name="twitter:description" content="Habib Sall — Software Engineer, Multimedia Designer, UI/UX Designer, Fashion Model and Performer. Building digital experiences through code and creativity.">
-<meta name="twitter:image" content="https://habibsalltheprogrammer.github.io/portfolio/assets/images/profile.jpg">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Habib Sall â€” Software Engineer Â· Multimedia Designer Â· Creative Technologist</title>
+
+  <meta name="description" content="Habib Sall â€” Software Engineer, Multimedia Designer, UI/UX Designer, Fashion Model and Performer. Building digital experiences through code and creativity.">
+
+  <link rel="icon" type="image/jpeg" href="assets/images/logo.jpeg">
+
+  <!-- Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Habib Sall â€” Software Engineer Â· Multimedia Designer Â· Creative Technologist">
+  <meta property="og:description" content="Habib Sall â€” Software Engineer, Multimedia Designer, UI/UX Designer, Fashion Model and Performer. Building digital experiences through code and creativity.">
+  <meta property="og:url" content="https://habibsall-portfolio.vercel.app/">
+  <meta property="og:image" content="https://habibsall-portfolio.vercel.app/assets/images/profile.jpg">
+  <meta property="og:site_name" content="Habib Sall">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Habib Sall â€” Software Engineer Â· Multimedia Designer Â· Creative Technologist">
+  <meta name="twitter:description" content="Building digital experiences through code and creativity.">
+  <meta name="twitter:image" content="https://habibsall-portfolio.vercel.app/assets/images/profile.jpg">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body data-page="index">
-<!-- ============ LOADER ============ -->
-<div id="loader">
-  <div class="loader-mark">HABIB<span>.</span>SALL</div>
-  <div class="loader-bar" id="loader-bar"></div>
-  <div class="loader-pct" id="loader-pct">0%</div>
-</div>
 
-<div id="scroll-progress"></div>
-<div class="cursor-glow" id="cursor-glow"></div>
-<!-- ============ NAVBAR ============ -->
-<header id="navbar">
-  <div class="container nav-inner">
-    <a href="index.html" class="nav-logo">HABIB<span>.</span>SALL</a>
-    <nav class="nav-links">
-      <a href="about.html">About</a>
-      <a href="skills.html">Skills</a>
-      <a href="projects.html">Software</a>
-      <a href="creative.html">Creative Design</a>
-      <a href="modeling.html">Modeling</a>
-      <a href="dance.html">Dance & Performance</a>
-      <a href="experience.html">Experience</a>
-      <a href="achievements.html">Achievements</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-    <div class="nav-actions">
-      <button class="kbd-hint" id="cmdk-trigger">⌘ / Ctrl + K &nbsp;·&nbsp; Search</button>
-      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">☾</button>
-      <button class="nav-burger" id="nav-burger" aria-label="Open menu">☰</button>
-    </div>
+  <!-- ============ LOADER ============ -->
+  <div id="loader">
+    <div class="loader-mark">HABIB<span>.</span>SALL</div>
+    <div class="loader-bar" id="loader-bar"></div>
+    <div class="loader-pct" id="loader-pct">0%</div>
   </div>
-</header>
 
-<div id="mobile-nav">
-  <button id="mobile-close" aria-label="Close menu">✕</button>
-  <a href="about.html">About</a>
-  <a href="skills.html">Skills</a>
-  <a href="projects.html">Software</a>
-  <a href="creative.html">Creative Design</a>
-  <a href="modeling.html">Modeling</a>
-  <a href="dance.html">Dance & Performance</a>
-  <a href="experience.html">Experience</a>
-  <a href="achievements.html">Achievements</a>
-  <a href="contact.html">Contact</a>
-</div>
+  <div id="scroll-progress"></div>
+  <div class="cursor-glow" id="cursor-glow"></div>
 
-<!-- ============ HERO ============ -->
-<section id="hero">
-  <canvas id="particles-canvas"></canvas>
-  <div class="hero-glow"></div>
-  <div class="hero-glow gold"></div>
-  <div class="container hero-inner">
-    <div class="hero-copy">
-      <div class="hero-eyebrow"><span class="dot"></span> Freetown, Sierra Leone — Available for select work</div>
-      <h1 class="hero-name">Habib<br><span class="accent">Sall</span></h1>
-      <div class="hero-roles"><span id="hero-role-text"></span><span class="cursor-blink"></span></div>
-      <p class="hero-desc">Building digital experiences through code &amp; creativity — I engineer software, design brand and multimedia work, model professionally, and perform on stage. Four disciplines, one point of view.</p>
-      <div class="hero-ctas">
-        <a href="projects.html" class="btn btn-primary">View Projects</a>
-        <a href="assets/resume/Habib_Sall_Resume.pdf" class="btn btn-gold" id="resume-btn" download>Download Resume</a>
-        <a href="contact.html" class="btn btn-outline">Contact Me</a>
-      </div>
-      <div class="hero-stats">
-        <div class="hero-stat"><b data-counter="6">0</b><span>Featured Projects</span></div>
-        <div class="hero-stat"><b data-counter="4">0</b><span>Disciplines</span></div>
-        <div class="hero-stat"><b data-counter="2">0</b><span>Pageant Titles</span></div>
-      </div>
-    </div>
-    <div class="hero-portrait">
-      <div class="portrait-ring"></div>
-      <div class="portrait-frame">
-        <img src="assets/images/profile.jpg" alt="Portrait of Habib Sall">
-      </div>
-      <div class="portrait-badge">Engineer <b>×</b> Designer <b>×</b> Model <b>×</b> Performer</div>
-    </div>
-  </div>
-  <div class="scroll-indicator"><a href="#dimensions" style="display:contents;"><div class="line"></div><span>Scroll</span></a></div>
-</section>
+  <!-- ============ NAVBAR ============ -->
+  <header id="navbar">
+    <div class="container nav-inner">
 
-<!-- ============ FOUR DIMENSIONS ============ -->
-<section id="dimensions" class="section">
-  <div class="container">
-    <div class="section-head" data-reveal>
-      <div class="eyebrow">Creative Identity</div>
-      <h2 class="section-title">A creative technologist who <em>builds, designs, performs.</em></h2>
-      <p class="section-desc">Four dimensions, one practice — a builder with code, a designer with vision, a model with confidence, and a performer on stage.</p>
-    </div>
-    <div class="dimensions-grid" data-reveal>
-      <div class="dimension-card">
-        <div class="d-num">01</div>
-        <h4>Software Engineering</h4>
-        <p>Building digital solutions through code — full-stack web platforms, mobile apps and database systems.</p>
-      </div>
-      <div class="dimension-card">
-        <div class="d-num">02</div>
-        <h4>Multimedia &amp; Design</h4>
-        <p>Creating visual experiences through design, branding and media — from logos to motion.</p>
-      </div>
-      <div class="dimension-card">
-        <div class="d-num">03</div>
-        <h4>Fashion &amp; Modeling</h4>
-        <p>Expressing creativity through fashion, confidence, and personal branding on the runway and camera.</p>
-      </div>
-      <div class="dimension-card">
-        <div class="d-num">04</div>
-        <h4>Dance &amp; Performance</h4>
-        <p>Expressing creativity through movement, choreography, and entertainment on stage.</p>
-      </div>
-    </div>
-  </div>
-</section>
+      <a href="index.html" class="nav-logo">
+        HABIB<span>.</span>SALL
+      </a>
 
-<!-- ============ ABOUT TEASER ============ -->
-<section class="section">
-  <div class="container">
-    <div class="section-head" data-reveal>
-      <div class="eyebrow">Chapter — About</div>
-      <h2 class="section-title">A builder first, <em>a creative</em> always.</h2>
-    </div>
-    <div class="about-teaser" data-reveal data-reveal-delay="2">
-      <p>I'm a Software Engineering with Multimedia student at Limkokwing University of Creative Technology, working across full-stack development, database systems, UI/UX design, and brand storytelling. My background sits at an unusual intersection: I write the backend that runs a system, then design the interface it ships in, then shoot the campaign that promotes it.</p>
-      <p>Outside the editor, I model professionally and perform as a dancer — disciplines that taught me presence, direction, and how to represent a brand on stage the same way I represent a product on screen.</p>
-      <a href="about.html">Read the full story →</a>
-    </div>
-  </div>
-</section>
-
-<!-- ============ EXPLORE GRID ============ -->
-<section id="explore" class="section">
-  <div class="container">
-    <div class="section-head" data-reveal>
-      <div class="eyebrow">Explore</div>
-      <h2 class="section-title">Every <em>chapter</em> of the work.</h2>
-      <p class="section-desc">Four disciplines, one portfolio. Pick a chapter to dive into.</p>
-    </div>
-    <div class="explore-grid" data-reveal>
-      <a href="about.html" class="explore-card"><div class="mark">Chapter 01</div><h4>About</h4><p>Background, mission, vision and philosophy.</p><span class="go">Read more →</span></a>
-      <a href="skills.html" class="explore-card"><div class="mark">Chapter 02</div><h4>Skills</h4><p>Engineering, multimedia and business capability.</p><span class="go">View skills →</span></a>
-      <a href="projects.html" class="explore-card"><div class="mark">Chapter 03</div><h4>Software Projects</h4><p>The flagship church website and applied engineering builds.</p><span class="go">View projects →</span></a>
-      <a href="creative.html" class="explore-card"><div class="mark">Chapter 04</div><h4>Creative Design</h4><p>Branding, print and social media design.</p><span class="go">View gallery →</span></a>
-      <a href="modeling.html" class="explore-card"><div class="mark">Chapter 05</div><h4>Modeling &amp; Fashion</h4><p>Pageant titles, runway and personal brand.</p><span class="go">View modeling →</span></a>
-      <a href="dance.html" class="explore-card"><div class="mark">Chapter 06</div><h4>Dance &amp; Performance</h4><p>Choreography, stage performance and creative movement.</p><span class="go">View performances →</span></a>
-      <a href="experience.html" class="explore-card"><div class="mark">Chapter 07</div><h4>Experience</h4><p>Professional roles and applied marketing work.</p><span class="go">View experience →</span></a>
-      <a href="achievements.html" class="explore-card"><div class="mark">Chapter 08</div><h4>Achievements</h4><p>Recognitions, awards and testimonials.</p><span class="go">View achievements →</span></a>
-      <a href="contact.html" class="explore-card"><div class="mark">Chapter 09</div><h4>Contact</h4><p>Let's build something great together.</p><span class="go">Get in touch →</span></a>
-    </div>
-  </div>
-</section>
-<!-- ============ FOOTER ============ -->
-<footer>
-  <div class="container">
-    <div class="footer-inner">
-      <div class="nav-logo">HABIB<span>.</span>SALL</div>
-      <p class="footer-quote">"Function and form are the same decision, made twice."</p>
-      <div class="footer-links">
+      <nav class="nav-links">
         <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
         <a href="projects.html">Software</a>
+        <a href="creative.html">Creative Design</a>
         <a href="modeling.html">Modeling</a>
-        <a href="dance.html">Dance</a>
+        <a href="dance.html">Dance &amp; Performance</a>
+        <a href="experience.html">Experience</a>
+        <a href="achievements.html">Achievements</a>
         <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="kbd-hint" id="cmdk-trigger" type="button">
+          âŒ˜ / Ctrl + K &nbsp;Â·&nbsp; Search
+        </button>
+
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme" type="button">â˜¾</button>
+
+        <button class="nav-burger" id="nav-burger" aria-label="Open menu" type="button">â˜°</button>
       </div>
-    <div class="footer-social">
-  <a href="https://wa.me/23230193191" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path fill="#25D366" d="M12 0C5.373 0 0 5.373 0 12c0 2.123.555 4.116 1.527 5.845L0 24l6.335-1.652A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22a9.94 9.94 0 01-5.088-1.397l-.365-.217-3.76.98 1.003-3.66-.238-.377A9.945 9.945 0 012 12c0-5.514 4.486-10 10-10s10 4.486 10 10-4.486 10-10 10z"/><path fill="#25D366" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.472-.148-.67.15-.198.297-.767.966-.94 1.164-.173.198-.347.223-.644.075-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.372-.025-.521-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.148.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg></a>
-  <a href="https://github.com/habibsalltheprogrammer" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24"><path fill="#ffffff" d="M12 .5C5.73.5.5 5.73.5 12a11.5 11.5 0 007.86 10.94c.58.1.79-.25.79-.56 0-.27-.01-1-.02-1.96-3.2.7-3.88-1.54-3.88-1.54-.53-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 015.8 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.81 1.18 1.84 1.18 3.1 0 4.43-2.69 5.41-5.25 5.7.41.36.78 1.08.78 2.17 0 1.57-.01 2.83-.01 3.22 0 .31.2.67.8.56A11.5 11.5 0 0023.5 12C23.5 5.73 18.27.5 12 .5z"/></svg></a>
-  <a href="https://www.facebook.com/habib.sall.35" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24"><path fill="#1877F2" d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.09 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.7 4.53-4.7 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.95.93-1.95 1.89v2.26h3.32l-.53 3.49h-2.79V24C19.61 23.09 24 18.1 24 12.07z"/></svg></a>
-  <a href="https://www.tiktok.com/@officialicekidsal" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24"><path fill="#25F4EE" d="M13.5.4h3.2c.2 1.5.9 2.8 2 3.7a6 6 0 003.3 1.3v3.3a9.3 9.3 0 01-3.5-.8 9.6 9.6 0 01-1.8-1.1v7.6c0 3.8-3.1 6.9-6.9 6.9S3 17.4 3 13.6c0-3.7 2.9-6.7 6.6-6.9v3.4a3.5 3.5 0 00-1-.14 3.5 3.5 0 100 7 3.5 3.5 0 003.5-3.5V.4z" transform="translate(-0.45,-0.3)"/><path fill="#FE2C55" d="M13.5.7h3.2c.2 1.5.9 2.8 2 3.7a6 6 0 003.3 1.3v3.3a9.3 9.3 0 01-3.5-.8 9.6 9.6 0 01-1.8-1.1v7.6c0 3.8-3.1 6.9-6.9 6.9S3 18 3 14.2c0-3.7 2.9-6.7 6.6-6.9v3.4a3.5 3.5 0 00-1-.14 3.5 3.5 0 100 7 3.5 3.5 0 003.5-3.5V.7z" transform="translate(0.45,0.3)"/><path fill="#000000" d="M13.5.55h3.2c.2 1.5.9 2.8 2 3.7a6 6 0 003.3 1.3v3.3a9.3 9.3 0 01-3.5-.8 9.6 9.6 0 01-1.8-1.1v7.6c0 3.8-3.1 6.9-6.9 6.9S3 17.7 3 13.9c0-3.7 2.9-6.7 6.6-6.9v3.4a3.5 3.5 0 00-1-.14 3.5 3.5 0 100 7 3.5 3.5 0 003.5-3.5V.55z"/></svg></a>
-  <a href="https://www.instagram.com/official_icekid_sall" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><defs><radialGradient id="igGrad8" cx="30%" cy="107%" r="150%"><stop offset="0%" stop-color="#fdf497"/><stop offset="20%" stop-color="#fdf497"/><stop offset="45%" stop-color="#fd5949"/><stop offset="65%" stop-color="#d6249f"/><stop offset="100%" stop-color="#285AEB"/></radialGradient></defs><rect width="24" height="24" rx="6" fill="url(#igGrad8)"/><path fill="#fff" d="M12 7a5 5 0 100 10 5 5 0 000-10zm0 8.2a3.2 3.2 0 110-6.4 3.2 3.2 0 010 6.4zM17.4 6.6a1.17 1.17 0 11-2.34 0 1.17 1.17 0 012.34 0z"/></svg></a>
-  <a href="https://www.linkedin.com/in/habib-sall-932721330" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><rect width="24" height="24" rx="4" fill="#0A66C2"/><path fill="#fff" d="M7.12 9.5H4.5V19h2.62V9.5zM5.81 8.31A1.56 1.56 0 105.8 5.2a1.56 1.56 0 000 3.12zM19.5 19h-2.62v-5.16c0-1.23-.44-2.07-1.54-2.07-.84 0-1.34.57-1.56 1.12-.08.2-.1.47-.1.75V19H11V9.5h2.51v1.15c.36-.55 1-1.34 2.44-1.34 1.78 0 3.11 1.16 3.11 3.66V19z"/></svg></a>
+
+    </div>
+  </header>
+
+  <!-- ============ MOBILE NAVIGATION ============ -->
+  <div id="mobile-nav">
+    <button id="mobile-close" aria-label="Close menu" type="button">âœ•</button>
+
+    <a href="about.html">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="projects.html">Software</a>
+    <a href="creative.html">Creative Design</a>
+    <a href="modeling.html">Modeling</a>
+    <a href="dance.html">Dance &amp; Performance</a>
+    <a href="experience.html">Experience</a>
+    <a href="achievements.html">Achievements</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <!-- ============ HERO ============ -->
+  <section id="hero">
+
+    <canvas id="particles-canvas"></canvas>
+
+    <div class="hero-glow"></div>
+    <div class="hero-glow gold"></div>
+
+    <div class="container hero-inner">
+
+      <div class="hero-copy">
+
+        <div class="hero-eyebrow">
+          <span class="dot"></span>
+          Freetown, Sierra Leone â€” Available for select work
+        </div>
+
+        <h1 class="hero-name">
+          Habib<br>
+          <span class="accent">Sall</span>
+        </h1>
+
+        <div class="hero-roles">
+          <span id="hero-role-text"></span>
+          <span class="cursor-blink"></span>
+        </div>
+
+        <p class="hero-desc">
+          Building digital experiences through code &amp; creativity â€”
+          I engineer software, design brand and multimedia work,
+          model professionally, and perform on stage.
+          Four disciplines, one point of view.
+        </p>
+
+        <div class="hero-ctas">
+
+          <a href="projects.html" class="btn btn-primary">
+            View Projects
+          </a>
+
+          <a href="assets/resume/Habib_Sall_Resume.pdf"
+             class="btn btn-gold"
+             id="resume-btn"
+             download>
+            Download Resume
+          </a>
+
+          <a href="#services" class="btn btn-outline">
+            Hire Me
+          </a>
+
+        </div>
+
+        <div class="hero-stats">
+
+          <div class="hero-stat">
+            <b data-counter="6">0</b>
+            <span>Featured Projects</span>
+          </div>
+
+          <div class="hero-stat">
+            <b data-counter="4">0</b>
+            <span>Disciplines</span>
+          </div>
+
+          <div class="hero-stat">
+            <b data-counter="2">0</b>
+            <span>Pageant Titles</span>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="hero-portrait">
+
+        <div class="portrait-ring"></div>
+
+        <div class="portrait-frame">
+          <img src="assets/images/profile.jpg" alt="Portrait of Habib Sall">
+        </div>
+
+        <div class="portrait-badge">
+          Engineer <b>Ã—</b> Designer <b>Ã—</b> Model <b>Ã—</b> Performer
+        </div>
+
+      </div>
+    </div>
+
+    <div class="scroll-indicator">
+      <a href="#dimensions" style="display:contents;">
+        <div class="line"></div>
+        <span>Scroll</span>
+      </a>
+    </div>
+
+  </section>
+
+  <!-- ============ FOUR DIMENSIONS ============ -->
+  <section id="dimensions" class="section">
+
+    <div class="container">
+
+      <div class="section-head" data-reveal>
+
+        <div class="eyebrow">Creative Identity</div>
+
+        <h2 class="section-title">
+          A creative technologist who
+          <em>builds, designs, performs.</em>
+        </h2>
+
+        <p class="section-desc">
+          Four dimensions, one practice â€” a builder with code,
+          a designer with vision, a model with confidence,
+          and a performer on stage.
+        </p>
+
+      </div>
+
+      <div class="dimensions-grid" data-reveal>
+
+        <div class="dimension-card">
+          <div class="d-num">01</div>
+          <h4>Software Engineering</h4>
+          <p>
+            Building digital solutions through code â€”
+            full-stack web platforms, mobile apps and database systems.
+          </p>
+        </div>
+
+        <div class="dimension-card">
+          <div class="d-num">02</div>
+          <h4>Multimedia &amp; Design</h4>
+          <p>
+            Creating visual experiences through design,
+            branding and media â€” from logos to motion.
+          </p>
+        </div>
+
+        <div class="dimension-card">
+          <div class="d-num">03</div>
+          <h4>Fashion &amp; Modeling</h4>
+          <p>
+            Expressing creativity through fashion,
+            confidence, and personal branding on the runway and camera.
+          </p>
+        </div>
+
+        <div class="dimension-card">
+          <div class="d-num">04</div>
+          <h4>Dance &amp; Performance</h4>
+          <p>
+            Expressing creativity through movement,
+            choreography, and entertainment on stage.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT TEASER ============ -->
+  <section class="section">
+
+    <div class="container">
+
+      <div class="section-head" data-reveal>
+        <div class="eyebrow">Chapter â€” About</div>
+
+        <h2 class="section-title">
+          A builder first, <em>a creative</em> always.
+        </h2>
+      </div>
+
+      <div class="about-teaser" data-reveal data-reveal-delay="2">
+
+        <p>
+          I'm a Software Engineering with Multimedia student at
+          Limkokwing University of Creative Technology,
+          working across full-stack development, database systems,
+          UI/UX design, and brand storytelling.
+          My background sits at an unusual intersection:
+          I write the backend that runs a system,
+          then design the interface it ships in,
+          then shoot the campaign that promotes it.
+        </p>
+
+        <p>
+          Outside the editor, I model professionally and perform
+          as a dancer â€” disciplines that taught me presence,
+          direction, and how to represent a brand on stage
+          the same way I represent a product on screen.
+        </p>
+
+        <a href="about.html">Read the full story â†’</a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROFESSIONAL SERVICES ============ -->
+  <section id="services" class="section">
+
+    <div class="container">
+
+      <div class="section-head" data-reveal>
+
+        <div class="eyebrow">What I Offer</div>
+
+        <h2 class="section-title">
+          Digital solutions that
+          <em>move businesses forward.</em>
+        </h2>
+
+        <p class="section-desc">
+          I help businesses and organizations create professional
+          digital experiences through software engineering,
+          web development, and creative technology.
+        </p>
+
+      </div>
+
+      <div class="services-grid">
+
+        <!-- Website Development -->
+        <article class="service-card" data-reveal>
+
+          <span class="service-number">01 / WEB</span>
+
+          <h3>Website Development</h3>
+
+          <p>
+            Modern, responsive websites for businesses,
+            organizations, personal brands, and institutions.
+          </p>
+
+          <a href="contact.html">
+            Discuss a project &rarr;
+          </a>
+
+        </article>
+
+        <!-- Custom Software -->
+        <article class="service-card" data-reveal>
+
+          <span class="service-number">02 / SOFTWARE</span>
+
+          <h3>Custom Software Systems</h3>
+
+          <p>
+            Database-driven applications, management systems,
+            dashboards, and digital workflow solutions.
+          </p>
+
+          <a href="projects.html">
+            Explore my work &rarr;
+          </a>
+
+        </article>
+
+        <!-- Shopify -->
+        <article class="service-card" data-reveal>
+
+          <span class="service-number">03 / E-COMMERCE</span>
+
+          <h3>E-Commerce Development</h3>
+
+          <p>
+            Exploring Shopify storefront development,
+            theme customization, and online shopping experiences.
+          </p>
+
+          <span class="service-status">
+            Shopify development in progress
+          </span>
+
+        </article>
+
+      </div>
+
+      <div class="services-cta" data-reveal>
+
+        <p>
+          Have a project in mind? Let's discuss your idea.
+        </p>
+
+        <a href="contact.html" class="btn btn-primary">
+          Start a Project &rarr;
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPLORE GRID ============ -->
+  <section id="explore" class="section">
+
+    <div class="container">
+
+      <div class="section-head" data-reveal>
+
+        <div class="eyebrow">Explore</div>
+
+        <h2 class="section-title">
+          Every <em>chapter</em> of the work.
+        </h2>
+
+        <p class="section-desc">
+          Four disciplines, one portfolio.
+          Pick a chapter to dive into.
+        </p>
+
+      </div>
+
+      <div class="explore-grid" data-reveal>
+
+        <a href="about.html" class="explore-card">
+          <div class="mark">Chapter 01</div>
+          <h4>About</h4>
+          <p>Background, mission, vision and philosophy.</p>
+          <span class="go">Read more â†’</span>
+        </a>
+
+        <a href="skills.html" class="explore-card">
+          <div class="mark">Chapter 02</div>
+          <h4>Skills</h4>
+          <p>Engineering, multimedia and business capability.</p>
+          <span class="go">View skills â†’</span>
+        </a>
+
+        <a href="projects.html" class="explore-card">
+          <div class="mark">Chapter 03</div>
+          <h4>Software Projects</h4>
+          <p>The flagship church website and applied engineering builds.</p>
+          <span class="go">View projects â†’</span>
+        </a>
+
+        <a href="creative.html" class="explore-card">
+          <div class="mark">Chapter 04</div>
+          <h4>Creative Design</h4>
+          <p>Branding, print and social media design.</p>
+          <span class="go">View gallery â†’</span>
+        </a>
+
+        <a href="modeling.html" class="explore-card">
+          <div class="mark">Chapter 05</div>
+          <h4>Modeling &amp; Fashion</h4>
+          <p>Pageant titles, runway and personal brand.</p>
+          <span class="go">View modeling â†’</span>
+        </a>
+
+        <a href="dance.html" class="explore-card">
+          <div class="mark">Chapter 06</div>
+          <h4>Dance &amp; Performance</h4>
+          <p>Choreography, stage performance and creative movement.</p>
+          <span class="go">View performances â†’</span>
+        </a>
+
+        <a href="experience.html" class="explore-card">
+          <div class="mark">Chapter 07</div>
+          <h4>Experience</h4>
+          <p>Professional roles and applied marketing work.</p>
+          <span class="go">View experience â†’</span>
+        </a>
+
+        <a href="achievements.html" class="explore-card">
+          <div class="mark">Chapter 08</div>
+          <h4>Achievements</h4>
+          <p>Recognitions, awards and testimonials.</p>
+          <span class="go">View achievements â†’</span>
+        </a>
+
+        <a href="contact.html" class="explore-card">
+          <div class="mark">Chapter 09</div>
+          <h4>Contact</h4>
+          <p>Let's build something great together.</p>
+          <span class="go">Get in touch â†’</span>
+        </a>
+
+      </div>
+    </div>
+    </section>
+<!-- ============ SOCIAL MEDIA ============ -->
+<div class="footer-social">
+
+  <!-- WhatsApp -->
+  <a href="https://wa.me/23230193191"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="WhatsApp"
+     title="WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"
+         xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M20.52 3.48A11.87 11.87 0 0 0 12.05 0C5.46 0 .1 5.36.1 11.95c0 2.1.55 4.16 1.6 5.97L0 24l6.24-1.64a11.9 11.9 0 0 0 5.8 1.48h.01c6.59 0 11.95-5.36 11.95-11.95 0-3.19-1.24-6.19-3.48-8.41ZM12.05 21.8a9.8 9.8 0 0 1-5-1.37l-.36-.21-3.7.97.99-3.61-.23-.37a9.86 9.86 0 0 1-1.52-5.26c0-5.43 4.42-9.85 9.86-9.85a9.8 9.8 0 0 1 6.96 2.89 9.8 9.8 0 0 1 2.88 6.96c0 5.43-4.42 9.85-9.88 9.85Zm5.4-7.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.76-1.66-2.06-.17-.3-.02-.46.13-.61.14-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.87 1.22 3.07c.15.2 2.1 3.2 5.08 4.49.71.31 1.27.49 1.7.63.71.23 1.35.2 1.86.12.57-.08 1.76-.72 2.01-1.42.25-.7.25-1.3.17-1.42-.07-.13-.27-.2-.57-.35Z"/>
+    </svg>
+  </a>
+
+  <!-- GitHub -->
+  <a href="https://github.com/habibsalltheprogrammer"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="GitHub"
+     title="GitHub">
+    <svg viewBox="0 0 24 24" fill="currentColor"
+         xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56v-2.2c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.56-.29-5.25-1.28-5.25-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.17 1.18A11.03 11.03 0 0 1 12 6.45c.98 0 1.96.13 2.88.39 2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.77.11 3.06.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.27 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.68.8.56A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/>
+    </svg>
+  </a>
+
+  <!-- Facebook -->
+  <a href="https://www.facebook.com/habib.sall.35"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="Facebook"
+     title="Facebook">
+    <svg viewBox="0 0 24 24" fill="currentColor"
+         xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.51 1.49-3.9 3.78-3.9 1.1 0 2.25.2 2.25.2v2.47H15.2c-1.24 0-1.63.77-1.63 1.56V12h2.77l-.44 2.89h-2.33v6.99A10 10 0 0 0 22 12Z"/>
+    </svg>
+  </a>
+
+  <!-- TikTok -->
+  <a href="https://www.tiktok.com/@officialicekidsal"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="TikTok"
+     title="TikTok">
+    <svg viewBox="0 0 24 24" fill="currentColor"
+         xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M16.7 1h-3.1v14.3a3.4 3.4 0 1 1-3-3.38V8.77a6.55 6.55 0 1 0 6.1 6.53V8.05a8.15 8.15 0 0 0 4.8 1.54V6.48a5.05 5.05 0 0 1-4.8-5.48Z"/>
+    </svg>
+  </a>
+
+  <!-- Instagram -->
+  <a href="https://www.instagram.com/official_icekid_sall"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="Instagram"
+     title="Instagram">
+    <svg viewBox="0 0 24 24" fill="none"
+         stroke="currentColor" stroke-width="2"
+         stroke-linecap="round" stroke-linejoin="round"
+         xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <rect x="2" y="2" width="20" height="20" rx="5"/>
+      <circle cx="12" cy="12" r="4"/>
+      <circle cx="18" cy="6" r="1" fill="currentColor" stroke="none"/>
+    </svg>
+  </a>
+
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/habib-sall-932721330"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="LinkedIn"
+     title="LinkedIn">
+    <svg viewBox="0 0 24 24" fill="currentColor"
+         xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M20.45 2H3.55C2.69 2 2 2.68 2 3.52v16.96c0 .84.69 1.52 1.55 1.52h16.9c.86 0 1.55-.68 1.55-1.52V3.52c0-.84-.69-1.52-1.55-1.52ZM7.93 18.75H4.98V9.2h2.95v9.55ZM6.45 7.9a1.71 1.71 0 1 1 0-3.42 1.71 1.71 0 0 1 0 3.42Zm12.3 10.85H15.8V14.1c0-1.11-.02-2.54-1.55-2.54-1.55 0-1.79 1.21-1.79 2.46v4.73H9.51V9.2h2.83v1.3h.04c.39-.74 1.36-1.52 2.79-1.52 2.98 0 3.58 1.96 3.58 4.51v5.26Z"/>
+    </svg>
+  </a>
+
 </div>
-</div>
-    <div class="footer-bottom">
-      <span>© <span id="year"></span> Habib Sall. All rights reserved.</span>
-      <span>Built with HTML, CSS &amp; JavaScript.</span>
+
+
+      <div class="footer-bottom">
+
+        <span>
+          Â© <span id="year"></span> Habib Sall.
+          All rights reserved.
+        </span>
+
+        <span>
+          Built with HTML, CSS &amp; JavaScript.
+        </span>
+
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ============ BACK TO TOP ============ -->
+  <button id="back-to-top" aria-label="Back to top" type="button">
+    â†‘
+  </button>
+
+  <!-- ============ LIGHTBOX ============ -->
+  <div id="lightbox">
+
+    <button id="lightbox-close" aria-label="Close preview" type="button">
+      âœ•
+    </button>
+
+    <div class="lightbox-box">
+      <div class="ph">â—ˆ</div>
+      <p id="lightbox-label">Untitled piece</p>
+    </div>
+
+  </div>
+
+  <!-- ============ COMMAND PALETTE ============ -->
+  <div id="cmdk-backdrop">
+
+    <div class="cmdk">
+
+      <input
+        id="cmdk-input"
+        type="text"
+        placeholder="Type a command or searchâ€¦"
+        autocomplete="off"
+      >
+
+      <div class="cmdk-list" id="cmdk-list"></div>
+
     </div>
   </div>
-</footer>
 
-<button id="back-to-top" aria-label="Back to top">↑</button>
+  <!-- ============ VIDEO LIGHTBOX ============ -->
+  <div id="video-lightbox">
 
-<!-- ============ LIGHTBOX ============ -->
-<div id="lightbox">
-  <button id="lightbox-close" aria-label="Close preview">✕</button>
-  <div class="lightbox-box">
-    <div class="ph">◈</div>
-    <p id="lightbox-label">Untitled piece</p>
-  </div>
-</div>
+    <button id="video-lightbox-close" aria-label="Close video" type="button">
+      âœ•
+    </button>
 
-<!-- ============ COMMAND PALETTE ============ -->
-<div id="cmdk-backdrop">
-  <div class="cmdk">
-    <input id="cmdk-input" type="text" placeholder="Type a command or search…" autocomplete="off">
-    <div class="cmdk-list" id="cmdk-list"></div>
-  </div>
-</div>
+    <div class="video-lightbox-box">
 
-<!-- ============ VIDEO LIGHTBOX ============ -->
-<div id="video-lightbox">
-  <button id="video-lightbox-close" aria-label="Close video">✕</button>
-  <div class="video-lightbox-box">
-    <div class="player">
-      <div class="play-btn"></div>
-      <small>Video placeholder — replace with a real &lt;video&gt; source or embed once footage is uploaded.</small>
+      <div class="player">
+        <div class="play-btn"></div>
+        <small>
+          Video placeholder â€” replace with a real
+          &lt;video&gt; source or embed once footage is uploaded.
+        </small>
+      </div>
+
+      <p id="video-lightbox-label">
+        Untitled performance
+      </p>
+
     </div>
-    <p id="video-lightbox-label">Untitled performance</p>
   </div>
-</div>
 
-<script src="js/data.js"></script>
-<script src="js/main.js"></script>
+  <!-- ============ JAVASCRIPT ============ -->
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+
 </body>
 </html>
